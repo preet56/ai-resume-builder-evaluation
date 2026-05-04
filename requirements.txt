@@ -1,0 +1,9 @@
+openai
+anthropic
+pandas
+python-dotenv
+jupyter
+ipykernel
+matplotlib
+seaborn
+streamlit

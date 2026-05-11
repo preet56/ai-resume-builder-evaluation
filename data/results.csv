@@ -1,0 +1,5 @@
+prompt_id,scenario_type,model,prompt_type,output,output_length
+P001,entry_level_software_engineer,gpt,baseline,"MOCK (gpt/baseline/P001): synthetic response generated. Prompt preview: You are an AI resume builder.  Using the candidate information and job description below, create an ATS-friendly resume ",192
+P001,entry_level_software_engineer,gpt,context,"MOCK (gpt/context/P001): synthetic response generated. Prompt preview: You are an AI resume builder being evaluated for accuracy, ATS alignment, and trustworthiness.  Goal: Create a resume dr",191
+P001,entry_level_software_engineer,claude,baseline,"MOCK (claude/baseline/P001): synthetic response generated. Prompt preview: You are an AI resume builder.  Using the candidate information and job description below, create an ATS-friendly resume ",195
+P001,entry_level_software_engineer,claude,context,"MOCK (claude/context/P001): synthetic response generated. Prompt preview: You are an AI resume builder being evaluated for accuracy, ATS alignment, and trustworthiness.  Goal: Create a resume dr",194

@@ -42,6 +42,22 @@ Includes ATS (Applicant Tracking System) guidelines such as:
 
 ---
 
+## Output Collection Method
+
+An automated experiment pipeline was developed in `notebooks/experiment.ipynb` and validated using mock mode.
+
+Due to API billing/access limitations, the final model outputs are collected manually through the ChatGPT and Claude web interfaces using the same baseline and context prompt templates.
+
+Mock outputs are not used in the final evaluation.
+
+Final results are stored in `data/results.csv`.
+
+Expected final output count:
+
+20 prompts × 2 models × 2 prompt types = 80 real outputs
+
+---
+
 ## Evaluation Criteria
 
 Generated resumes are evaluated using a standardized rubric on a scale of 1–5 based on:
@@ -77,9 +93,12 @@ rubric.md
 - Python
 - Jupyter Notebook
 - Pandas
-- OpenAI API
-- Anthropic API
+- ChatGPT web interface
+- Claude web interface
 - Google Sheets (for evaluation)
+- GitHub (version control)
+
+The notebook also includes optional API-based experiment code, but final outputs are collected manually due to API billing/access limitations.
 
 ---
 
@@ -114,12 +133,28 @@ This project aims to:
 1. Install dependencies:
    pip install -r requirements.txt
 
-2. Run the experiment notebook:
+2. Review the prompt dataset:
+   data/prompts.csv
+
+3. Review the prompt templates:
+   prompts/baseline.txt
+   prompts/context.txt
+
+4. The notebook can be used to validate the pipeline in mock mode:
    notebooks/experiment.ipynb
+
+5. Final model outputs are collected manually using ChatGPT and Claude web interfaces and saved in:
+   data/results.csv
+
+6. Final outputs are evaluated using:
+   evaluation/rubric.md
 
 ---
 
 ## Notes
 
-- All evaluations are conducted using a consistent scoring rubric
-- Multiple team members participate in scoring to improve reliability
+- All evaluations are conducted using a consistent scoring rubric.
+- Multiple team members participate in scoring to improve reliability.
+- Mock outputs are used only for pipeline validation and are not included in the final evaluation.
+- Final results in `data/results.csv` should contain only real GPT and Claude outputs.
+- Generated outputs should not be manually edited before evaluation.

@@ -8,6 +8,9 @@ Candidate Information:
 Job Description:
 {job_description}
 
+Task Instruction:
+{task_instruction}
+
 Instructions:
 - Use only the facts provided.
 - Do not invent job titles, employers, dates, degrees, certifications, tools, metrics, or years of experience.

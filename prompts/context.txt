@@ -9,6 +9,9 @@ Candidate Information:
 Job Description:
 {job_description}
 
+Task Instruction:
+{task_instruction}
+
 ATS and Trustworthiness Guidelines:
 1. Match relevant keywords from the job description naturally, especially required skills, tools, role title language, and responsibilities.
 2. Do not keyword-stuff. Use keywords only when they are supported by the candidate information.

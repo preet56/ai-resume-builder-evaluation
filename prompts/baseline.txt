@@ -3,9 +3,7 @@ You are an AI resume builder.
 Using the candidate information and job description below, create an ATS-friendly resume draft tailored to the role.
 
 Candidate Information:
-{candidate_information}
-
-Job Description:
+Job Description: 
 {job_description}
 
 Task Instruction:

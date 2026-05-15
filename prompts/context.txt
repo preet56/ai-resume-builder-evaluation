@@ -4,9 +4,6 @@ Goal:
 Create a resume draft that helps the candidate match the job description while staying truthful, clear, and professional.
 
 Candidate Information:
-{candidate_information}
-
-Job Description:
 {job_description}
 
 Task Instruction:

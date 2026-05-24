@@ -19,8 +19,8 @@ The main goals of this project are:
 
 ## Models Used
 
-- OpenAI GPT
-- Anthropic Claude
+- ChatGPT-4.1
+- Claude Sonnet 4.6
 
 ---
 
@@ -128,6 +128,19 @@ This project aims to:
 
 ---
 
+## Final Evaluation Summary
+
+The final evaluation included 80 real outputs across 20 prompts, 2 models, and 2 prompt types.
+
+Average model scores:
+
+- ChatGPT-4.1 average total score: 24.6 / 25
+- Claude Sonnet 4.6 average total score: 23.3 / 25
+
+ChatGPT-4.1 performed slightly better overall, mainly because it had stronger factual consistency and fewer unsupported claims. Claude Sonnet 4.6 produced polished and well-structured resumes, but some outputs included unsupported or overly specific details, which lowered its trustworthiness score.
+
+---
+
 ## How to Run
 
 1. Install dependencies:
@@ -154,7 +167,20 @@ This project aims to:
 ## Notes
 
 - All evaluations are conducted using a consistent scoring rubric.
-- Multiple team members participate in scoring to improve reliability.
+- Evaluation was completed using a consistent scoring rubric.
+- A significant amount of scoring was completed by the team leader (Preet) to preserve scoring consistency across outputs.
 - Mock outputs are used only for pipeline validation and are not included in the final evaluation.
 - Final results in `data/results.csv` should contain only real GPT and Claude outputs.
 - Generated outputs should not be manually edited before evaluation.
+
+---
+
+## Project Links
+
+Final Report: https://docs.google.com/document/d/1BPogHQS5eixqhnZvy68z6TWImWQ3OfVzHRN4mUffhCA/edit?usp=sharing
+
+Evaluation Spreadsheet: https://docs.google.com/spreadsheets/d/1IJk9vbmw4WpejbV0zyGsfxxFCWV7Eli9LKZt8u-wjEI/edit?usp=sharing
+
+GitHub Repository: https://github.com/preet56/ai-resume-builder-evaluation.git
+
+---
